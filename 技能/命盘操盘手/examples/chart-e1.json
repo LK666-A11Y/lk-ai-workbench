@@ -1,0 +1,1644 @@
+{
+  "bazi": {
+    "birthInfo": {
+      "year": 2007,
+      "month": 9,
+      "day": 15,
+      "hour": 14,
+      "minute": 0,
+      "isLunar": false,
+      "gender": "female",
+      "timeZone": 8
+    },
+    "siZhu": {
+      "year": {
+        "gan": "丁",
+        "zhi": "亥"
+      },
+      "month": {
+        "gan": "己",
+        "zhi": "酉"
+      },
+      "day": {
+        "gan": "壬",
+        "zhi": "子"
+      },
+      "hour": {
+        "gan": "丁",
+        "zhi": "未"
+      }
+    },
+    "dayMaster": "壬",
+    "shiShen": {
+      "year": "正财",
+      "month": "正官",
+      "day": "比肩",
+      "hour": "正财"
+    },
+    "zhangSheng": {
+      "year": "临官",
+      "month": "沐浴",
+      "day": "帝旺",
+      "hour": "养"
+    },
+    "naYin": {
+      "year": "屋上土",
+      "month": "大驿土",
+      "day": "桑柘木",
+      "hour": "天河水"
+    },
+    "dayunStart": 7,
+    "dayun": [
+      {
+        "ganZhi": {
+          "gan": "庚",
+          "zhi": "戌"
+        },
+        "startAge": 9,
+        "startYear": 2015,
+        "endYear": 2024,
+        "ganShiShen": "偏印",
+        "zhiShiShen": "七杀",
+        "liuNian": [
+          {
+            "year": 2015,
+            "age": 9,
+            "ganZhi": {
+              "gan": "乙",
+              "zhi": "未"
+            }
+          },
+          {
+            "year": 2016,
+            "age": 10,
+            "ganZhi": {
+              "gan": "丙",
+              "zhi": "申"
+            }
+          },
+          {
+            "year": 2017,
+            "age": 11,
+            "ganZhi": {
+              "gan": "丁",
+              "zhi": "酉"
+            }
+          },
+          {
+            "year": 2018,
+            "age": 12,
+            "ganZhi": {
+              "gan": "戊",
+              "zhi": "戌"
+            }
+          },
+          {
+            "year": 2019,
+            "age": 13,
+            "ganZhi": {
+              "gan": "己",
+              "zhi": "亥"
+            }
+          },
+          {
+            "year": 2020,
+            "age": 14,
+            "ganZhi": {
+              "gan": "庚",
+              "zhi": "子"
+            }
+          },
+          {
+            "year": 2021,
+            "age": 15,
+            "ganZhi": {
+              "gan": "辛",
+              "zhi": "丑"
+            }
+          },
+          {
+            "year": 2022,
+            "age": 16,
+            "ganZhi": {
+              "gan": "壬",
+              "zhi": "寅"
+            }
+          },
+          {
+            "year": 2023,
+            "age": 17,
+            "ganZhi": {
+              "gan": "癸",
+              "zhi": "卯"
+            }
+          },
+          {
+            "year": 2024,
+            "age": 18,
+            "ganZhi": {
+              "gan": "甲",
+              "zhi": "辰"
+            }
+          }
+        ],
+        "endAge": 18
+      },
+      {
+        "ganZhi": {
+          "gan": "辛",
+          "zhi": "亥"
+        },
+        "startAge": 19,
+        "startYear": 2025,
+        "endYear": 2034,
+        "ganShiShen": "正印",
+        "zhiShiShen": "比肩",
+        "liuNian": [
+          {
+            "year": 2025,
+            "age": 19,
+            "ganZhi": {
+              "gan": "乙",
+              "zhi": "巳"
+            }
+          },
+          {
+            "year": 2026,
+            "age": 20,
+            "ganZhi": {
+              "gan": "丙",
+              "zhi": "午"
+            }
+          },
+          {
+            "year": 2027,
+            "age": 21,
+            "ganZhi": {
+              "gan": "丁",
+              "zhi": "未"
+            }
+          },
+          {
+            "year": 2028,
+            "age": 22,
+            "ganZhi": {
+              "gan": "戊",
+              "zhi": "申"
+            }
+          },
+          {
+            "year": 2029,
+            "age": 23,
+            "ganZhi": {
+              "gan": "己",
+              "zhi": "酉"
+            }
+          },
+          {
+            "year": 2030,
+            "age": 24,
+            "ganZhi": {
+              "gan": "庚",
+              "zhi": "戌"
+            }
+          },
+          {
+            "year": 2031,
+            "age": 25,
+            "ganZhi": {
+              "gan": "辛",
+              "zhi": "亥"
+            }
+          },
+          {
+            "year": 2032,
+            "age": 26,
+            "ganZhi": {
+              "gan": "壬",
+              "zhi": "子"
+            }
+          },
+          {
+            "year": 2033,
+            "age": 27,
+            "ganZhi": {
+              "gan": "癸",
+              "zhi": "丑"
+            }
+          },
+          {
+            "year": 2034,
+            "age": 28,
+            "ganZhi": {
+              "gan": "甲",
+              "zhi": "寅"
+            }
+          }
+        ],
+        "endAge": 28
+      },
+      {
+        "ganZhi": {
+          "gan": "壬",
+          "zhi": "子"
+        },
+        "startAge": 29,
+        "startYear": 2035,
+        "endYear": 2044,
+        "ganShiShen": "比肩",
+        "zhiShiShen": "劫财",
+        "liuNian": [
+          {
+            "year": 2035,
+            "age": 29,
+            "ganZhi": {
+              "gan": "乙",
+              "zhi": "卯"
+            }
+          },
+          {
+            "year": 2036,
+            "age": 30,
+            "ganZhi": {
+              "gan": "丙",
+              "zhi": "辰"
+            }
+          },
+          {
+            "year": 2037,
+            "age": 31,
+            "ganZhi": {
+              "gan": "丁",
+              "zhi": "巳"
+            }
+          },
+          {
+            "year": 2038,
+            "age": 32,
+            "ganZhi": {
+              "gan": "戊",
+              "zhi": "午"
+            }
+          },
+          {
+            "year": 2039,
+            "age": 33,
+            "ganZhi": {
+              "gan": "己",
+              "zhi": "未"
+            }
+          },
+          {
+            "year": 2040,
+            "age": 34,
+            "ganZhi": {
+              "gan": "庚",
+              "zhi": "申"
+            }
+          },
+          {
+            "year": 2041,
+            "age": 35,
+            "ganZhi": {
+              "gan": "辛",
+              "zhi": "酉"
+            }
+          },
+          {
+            "year": 2042,
+            "age": 36,
+            "ganZhi": {
+              "gan": "壬",
+              "zhi": "戌"
+            }
+          },
+          {
+            "year": 2043,
+            "age": 37,
+            "ganZhi": {
+              "gan": "癸",
+              "zhi": "亥"
+            }
+          },
+          {
+            "year": 2044,
+            "age": 38,
+            "ganZhi": {
+              "gan": "甲",
+              "zhi": "子"
+            }
+          }
+        ],
+        "endAge": 38
+      },
+      {
+        "ganZhi": {
+          "gan": "癸",
+          "zhi": "丑"
+        },
+        "startAge": 39,
+        "startYear": 2045,
+        "endYear": 2054,
+        "ganShiShen": "劫财",
+        "zhiShiShen": "正官",
+        "liuNian": [
+          {
+            "year": 2045,
+            "age": 39,
+            "ganZhi": {
+              "gan": "乙",
+              "zhi": "丑"
+            }
+          },
+          {
+            "year": 2046,
+            "age": 40,
+            "ganZhi": {
+              "gan": "丙",
+              "zhi": "寅"
+            }
+          },
+          {
+            "year": 2047,
+            "age": 41,
+            "ganZhi": {
+              "gan": "丁",
+              "zhi": "卯"
+            }
+          },
+          {
+            "year": 2048,
+            "age": 42,
+            "ganZhi": {
+              "gan": "戊",
+              "zhi": "辰"
+            }
+          },
+          {
+            "year": 2049,
+            "age": 43,
+            "ganZhi": {
+              "gan": "己",
+              "zhi": "巳"
+            }
+          },
+          {
+            "year": 2050,
+            "age": 44,
+            "ganZhi": {
+              "gan": "庚",
+              "zhi": "午"
+            }
+          },
+          {
+            "year": 2051,
+            "age": 45,
+            "ganZhi": {
+              "gan": "辛",
+              "zhi": "未"
+            }
+          },
+          {
+            "year": 2052,
+            "age": 46,
+            "ganZhi": {
+              "gan": "壬",
+              "zhi": "申"
+            }
+          },
+          {
+            "year": 2053,
+            "age": 47,
+            "ganZhi": {
+              "gan": "癸",
+              "zhi": "酉"
+            }
+          },
+          {
+            "year": 2054,
+            "age": 48,
+            "ganZhi": {
+              "gan": "甲",
+              "zhi": "戌"
+            }
+          }
+        ],
+        "endAge": 48
+      },
+      {
+        "ganZhi": {
+          "gan": "甲",
+          "zhi": "寅"
+        },
+        "startAge": 49,
+        "startYear": 2055,
+        "endYear": 2064,
+        "ganShiShen": "食神",
+        "zhiShiShen": "食神",
+        "liuNian": [
+          {
+            "year": 2055,
+            "age": 49,
+            "ganZhi": {
+              "gan": "乙",
+              "zhi": "亥"
+            }
+          },
+          {
+            "year": 2056,
+            "age": 50,
+            "ganZhi": {
+              "gan": "丙",
+              "zhi": "子"
+            }
+          },
+          {
+            "year": 2057,
+            "age": 51,
+            "ganZhi": {
+              "gan": "丁",
+              "zhi": "丑"
+            }
+          },
+          {
+            "year": 2058,
+            "age": 52,
+            "ganZhi": {
+              "gan": "戊",
+              "zhi": "寅"
+            }
+          },
+          {
+            "year": 2059,
+            "age": 53,
+            "ganZhi": {
+              "gan": "己",
+              "zhi": "卯"
+            }
+          },
+          {
+            "year": 2060,
+            "age": 54,
+            "ganZhi": {
+              "gan": "庚",
+              "zhi": "辰"
+            }
+          },
+          {
+            "year": 2061,
+            "age": 55,
+            "ganZhi": {
+              "gan": "辛",
+              "zhi": "巳"
+            }
+          },
+          {
+            "year": 2062,
+            "age": 56,
+            "ganZhi": {
+              "gan": "壬",
+              "zhi": "午"
+            }
+          },
+          {
+            "year": 2063,
+            "age": 57,
+            "ganZhi": {
+              "gan": "癸",
+              "zhi": "未"
+            }
+          },
+          {
+            "year": 2064,
+            "age": 58,
+            "ganZhi": {
+              "gan": "甲",
+              "zhi": "申"
+            }
+          }
+        ],
+        "endAge": 58
+      },
+      {
+        "ganZhi": {
+          "gan": "乙",
+          "zhi": "卯"
+        },
+        "startAge": 59,
+        "startYear": 2065,
+        "endYear": 2074,
+        "ganShiShen": "伤官",
+        "zhiShiShen": "伤官",
+        "liuNian": [
+          {
+            "year": 2065,
+            "age": 59,
+            "ganZhi": {
+              "gan": "乙",
+              "zhi": "酉"
+            }
+          },
+          {
+            "year": 2066,
+            "age": 60,
+            "ganZhi": {
+              "gan": "丙",
+              "zhi": "戌"
+            }
+          },
+          {
+            "year": 2067,
+            "age": 61,
+            "ganZhi": {
+              "gan": "丁",
+              "zhi": "亥"
+            }
+          },
+          {
+            "year": 2068,
+            "age": 62,
+            "ganZhi": {
+              "gan": "戊",
+              "zhi": "子"
+            }
+          },
+          {
+            "year": 2069,
+            "age": 63,
+            "ganZhi": {
+              "gan": "己",
+              "zhi": "丑"
+            }
+          },
+          {
+            "year": 2070,
+            "age": 64,
+            "ganZhi": {
+              "gan": "庚",
+              "zhi": "寅"
+            }
+          },
+          {
+            "year": 2071,
+            "age": 65,
+            "ganZhi": {
+              "gan": "辛",
+              "zhi": "卯"
+            }
+          },
+          {
+            "year": 2072,
+            "age": 66,
+            "ganZhi": {
+              "gan": "壬",
+              "zhi": "辰"
+            }
+          },
+          {
+            "year": 2073,
+            "age": 67,
+            "ganZhi": {
+              "gan": "癸",
+              "zhi": "巳"
+            }
+          },
+          {
+            "year": 2074,
+            "age": 68,
+            "ganZhi": {
+              "gan": "甲",
+              "zhi": "午"
+            }
+          }
+        ],
+        "endAge": 68
+      },
+      {
+        "ganZhi": {
+          "gan": "丙",
+          "zhi": "辰"
+        },
+        "startAge": 69,
+        "startYear": 2075,
+        "endYear": 2084,
+        "ganShiShen": "偏财",
+        "zhiShiShen": "七杀",
+        "liuNian": [
+          {
+            "year": 2075,
+            "age": 69,
+            "ganZhi": {
+              "gan": "乙",
+              "zhi": "未"
+            }
+          },
+          {
+            "year": 2076,
+            "age": 70,
+            "ganZhi": {
+              "gan": "丙",
+              "zhi": "申"
+            }
+          },
+          {
+            "year": 2077,
+            "age": 71,
+            "ganZhi": {
+              "gan": "丁",
+              "zhi": "酉"
+            }
+          },
+          {
+            "year": 2078,
+            "age": 72,
+            "ganZhi": {
+              "gan": "戊",
+              "zhi": "戌"
+            }
+          },
+          {
+            "year": 2079,
+            "age": 73,
+            "ganZhi": {
+              "gan": "己",
+              "zhi": "亥"
+            }
+          },
+          {
+            "year": 2080,
+            "age": 74,
+            "ganZhi": {
+              "gan": "庚",
+              "zhi": "子"
+            }
+          },
+          {
+            "year": 2081,
+            "age": 75,
+            "ganZhi": {
+              "gan": "辛",
+              "zhi": "丑"
+            }
+          },
+          {
+            "year": 2082,
+            "age": 76,
+            "ganZhi": {
+              "gan": "壬",
+              "zhi": "寅"
+            }
+          },
+          {
+            "year": 2083,
+            "age": 77,
+            "ganZhi": {
+              "gan": "癸",
+              "zhi": "卯"
+            }
+          },
+          {
+            "year": 2084,
+            "age": 78,
+            "ganZhi": {
+              "gan": "甲",
+              "zhi": "辰"
+            }
+          }
+        ],
+        "endAge": 78
+      },
+      {
+        "ganZhi": {
+          "gan": "丁",
+          "zhi": "巳"
+        },
+        "startAge": 79,
+        "startYear": 2085,
+        "endYear": 2094,
+        "ganShiShen": "正财",
+        "zhiShiShen": "偏财",
+        "liuNian": [
+          {
+            "year": 2085,
+            "age": 79,
+            "ganZhi": {
+              "gan": "乙",
+              "zhi": "巳"
+            }
+          },
+          {
+            "year": 2086,
+            "age": 80,
+            "ganZhi": {
+              "gan": "丙",
+              "zhi": "午"
+            }
+          },
+          {
+            "year": 2087,
+            "age": 81,
+            "ganZhi": {
+              "gan": "丁",
+              "zhi": "未"
+            }
+          },
+          {
+            "year": 2088,
+            "age": 82,
+            "ganZhi": {
+              "gan": "戊",
+              "zhi": "申"
+            }
+          },
+          {
+            "year": 2089,
+            "age": 83,
+            "ganZhi": {
+              "gan": "己",
+              "zhi": "酉"
+            }
+          },
+          {
+            "year": 2090,
+            "age": 84,
+            "ganZhi": {
+              "gan": "庚",
+              "zhi": "戌"
+            }
+          },
+          {
+            "year": 2091,
+            "age": 85,
+            "ganZhi": {
+              "gan": "辛",
+              "zhi": "亥"
+            }
+          },
+          {
+            "year": 2092,
+            "age": 86,
+            "ganZhi": {
+              "gan": "壬",
+              "zhi": "子"
+            }
+          },
+          {
+            "year": 2093,
+            "age": 87,
+            "ganZhi": {
+              "gan": "癸",
+              "zhi": "丑"
+            }
+          },
+          {
+            "year": 2094,
+            "age": 88,
+            "ganZhi": {
+              "gan": "甲",
+              "zhi": "寅"
+            }
+          }
+        ],
+        "endAge": 88
+      },
+      {
+        "ganZhi": {
+          "gan": "戊",
+          "zhi": "午"
+        },
+        "startAge": 89,
+        "startYear": 2095,
+        "endYear": 2104,
+        "ganShiShen": "七杀",
+        "zhiShiShen": "正财",
+        "liuNian": [
+          {
+            "year": 2095,
+            "age": 89,
+            "ganZhi": {
+              "gan": "乙",
+              "zhi": "卯"
+            }
+          },
+          {
+            "year": 2096,
+            "age": 90,
+            "ganZhi": {
+              "gan": "丙",
+              "zhi": "辰"
+            }
+          },
+          {
+            "year": 2097,
+            "age": 91,
+            "ganZhi": {
+              "gan": "丁",
+              "zhi": "巳"
+            }
+          },
+          {
+            "year": 2098,
+            "age": 92,
+            "ganZhi": {
+              "gan": "戊",
+              "zhi": "午"
+            }
+          },
+          {
+            "year": 2099,
+            "age": 93,
+            "ganZhi": {
+              "gan": "己",
+              "zhi": "未"
+            }
+          },
+          {
+            "year": 2100,
+            "age": 94,
+            "ganZhi": {
+              "gan": "庚",
+              "zhi": "申"
+            }
+          },
+          {
+            "year": 2101,
+            "age": 95,
+            "ganZhi": {
+              "gan": "辛",
+              "zhi": "酉"
+            }
+          },
+          {
+            "year": 2102,
+            "age": 96,
+            "ganZhi": {
+              "gan": "壬",
+              "zhi": "戌"
+            }
+          },
+          {
+            "year": 2103,
+            "age": 97,
+            "ganZhi": {
+              "gan": "癸",
+              "zhi": "亥"
+            }
+          },
+          {
+            "year": 2104,
+            "age": 98,
+            "ganZhi": {
+              "gan": "甲",
+              "zhi": "子"
+            }
+          }
+        ],
+        "endAge": 98
+      }
+    ],
+    "cangGan": {
+      "year": [
+        {
+          "gan": "壬",
+          "shiShen": "比肩"
+        },
+        {
+          "gan": "甲",
+          "shiShen": "食神"
+        }
+      ],
+      "month": [
+        {
+          "gan": "辛",
+          "shiShen": "正印"
+        }
+      ],
+      "day": [
+        {
+          "gan": "癸",
+          "shiShen": "劫财"
+        }
+      ],
+      "hour": [
+        {
+          "gan": "己",
+          "shiShen": "正官"
+        },
+        {
+          "gan": "丁",
+          "shiShen": "正财"
+        },
+        {
+          "gan": "乙",
+          "shiShen": "伤官"
+        }
+      ]
+    },
+    "enrichment": {
+      "自坐": {
+        "年": "胎",
+        "月": "长生",
+        "日": "帝旺",
+        "时": "冠带"
+      },
+      "五行旺相": {
+        "木": "死",
+        "火": "囚",
+        "土": "休",
+        "金": "旺",
+        "水": "相"
+      },
+      "五行统计": {
+        "surface": {
+          "木": 0,
+          "火": 2,
+          "土": 2,
+          "金": 1,
+          "水": 3
+        },
+        "withCangGan": {
+          "木": 0.8,
+          "火": 2.5,
+          "土": 2,
+          "金": 1,
+          "水": 3
+        },
+        "missing": [
+          "木"
+        ],
+        "strongest": [
+          "水"
+        ],
+        "shiShenGroups": {
+          "木": {
+            "十神类": "食伤",
+            "实例数": 0
+          },
+          "火": {
+            "十神类": "财",
+            "实例数": 2
+          },
+          "土": {
+            "十神类": "官杀",
+            "实例数": 2
+          },
+          "金": {
+            "十神类": "印",
+            "实例数": 1
+          },
+          "水": {
+            "十神类": "比劫",
+            "实例数": 3
+          }
+        }
+      },
+      "调候用神": [
+        "甲",
+        "庚"
+      ],
+      "格局": {
+        "primary": "正印格",
+        "basis": "月支酉本气辛(正印) — 纯气月支直接立格",
+        "透干": [],
+        "confidence": "高",
+        "notes": []
+      },
+      "旺衰": {
+        "score": 3.5,
+        "verdict": "偏旺",
+        "confidence": "低",
+        "breakdown": {
+          "得令": 3,
+          "长生": 0,
+          "得地": 4,
+          "得势": -3.5,
+          "details": [
+            "月支本气辛=正印 +3",
+            "日主壬在月支酉为沐浴 (+0)",
+            "年支亥藏壬(比肩, 本气) +2",
+            "日支子藏癸(劫财, 本气) +2",
+            "年干丁(正财) -1",
+            "月干己(正官) -1.5",
+            "时干丁(正财) -1"
+          ]
+        }
+      },
+      "天干关系": [
+        {
+          "type": "天干合",
+          "gans": [
+            "丁",
+            "壬"
+          ],
+          "pillars": [
+            "年",
+            "日"
+          ]
+        },
+        {
+          "type": "天干相克",
+          "gans": [
+            "己",
+            "壬"
+          ],
+          "pillars": [
+            "月",
+            "日"
+          ]
+        },
+        {
+          "type": "天干合",
+          "gans": [
+            "壬",
+            "丁"
+          ],
+          "pillars": [
+            "日",
+            "时"
+          ]
+        }
+      ],
+      "地支关系": [
+        {
+          "type": "六害",
+          "zhi": [
+            "子",
+            "未"
+          ],
+          "pillars": [
+            "日",
+            "时"
+          ]
+        },
+        {
+          "type": "拱合",
+          "zhi": [
+            "亥",
+            "未"
+          ],
+          "pillars": [
+            "年",
+            "时"
+          ],
+          "detail": "拱合卯(木局)"
+        },
+        {
+          "type": "拱会",
+          "zhi": [
+            "亥",
+            "子"
+          ],
+          "pillars": [
+            "年",
+            "日"
+          ],
+          "detail": "拱会丑(水方)"
+        }
+      ],
+      "整柱": [
+        {
+          "pillar": "年",
+          "gan": "丁",
+          "zhi": "亥",
+          "verdict": "截脚"
+        },
+        {
+          "pillar": "月",
+          "gan": "己",
+          "zhi": "酉",
+          "verdict": "天干生地支"
+        },
+        {
+          "pillar": "日",
+          "gan": "壬",
+          "zhi": "子",
+          "verdict": "天地同气"
+        },
+        {
+          "pillar": "时",
+          "gan": "丁",
+          "zhi": "未",
+          "verdict": "天干生地支"
+        }
+      ]
+    },
+    "flux": {
+      "refDate": "2026-08-29",
+      "items": [
+        {
+          "kind": "流年",
+          "refDate": "2026-08-29",
+          "ganZhi": "丙午",
+          "gan": "丙",
+          "zhi": "午",
+          "ganShiShen": "偏财",
+          "zhiRelations": [
+            {
+              "type": "六冲",
+              "with": "日",
+              "zhi": "子"
+            },
+            {
+              "type": "六合",
+              "with": "时",
+              "zhi": "未"
+            },
+            {
+              "type": "拱三会",
+              "with": "时",
+              "zhi": "午",
+              "note": "拱巳"
+            }
+          ]
+        },
+        {
+          "kind": "流月",
+          "refDate": "2026-08-29",
+          "ganZhi": "丙申",
+          "gan": "丙",
+          "zhi": "申",
+          "ganShiShen": "偏财",
+          "zhiRelations": [
+            {
+              "type": "六害",
+              "with": "年",
+              "zhi": "亥"
+            },
+            {
+              "type": "拱三合",
+              "with": "日",
+              "zhi": "申",
+              "note": "拱辰"
+            },
+            {
+              "type": "拱三会",
+              "with": "月",
+              "zhi": "申",
+              "note": "拱戌"
+            }
+          ]
+        },
+        {
+          "kind": "流日",
+          "refDate": "2026-08-29",
+          "ganZhi": "乙亥",
+          "gan": "乙",
+          "zhi": "亥",
+          "ganShiShen": "伤官",
+          "zhiRelations": [
+            {
+              "type": "拱三合",
+              "with": "年+时",
+              "zhi": "亥",
+              "note": "拱卯"
+            },
+            {
+              "type": "拱三会",
+              "with": "年+日",
+              "zhi": "亥",
+              "note": "拱丑"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "ziwei": {
+    "birthInfo": {
+      "year": 2007,
+      "month": 9,
+      "day": 15,
+      "hour": 14,
+      "minute": 0,
+      "isLunar": false,
+      "gender": "female",
+      "timeZone": 8
+    },
+    "lunarDate": {
+      "year": 2007,
+      "month": 8,
+      "day": 5,
+      "monthCn": "八",
+      "dayCn": "初五"
+    },
+    "siZhu": {
+      "year": {
+        "gan": "丁",
+        "zhi": "亥"
+      },
+      "month": {
+        "gan": "己",
+        "zhi": "酉"
+      },
+      "day": {
+        "gan": "壬",
+        "zhi": "子"
+      },
+      "hour": {
+        "gan": "丁",
+        "zhi": "未"
+      }
+    },
+    "yinYang": "阴女",
+    "mingGongIndex": 2,
+    "shenGongIndex": 4,
+    "wuXingJu": {
+      "name": "金四局",
+      "number": 4
+    },
+    "gongs": [
+      {
+        "gong": "命宫",
+        "dizhi": "寅",
+        "tiangan": "壬",
+        "mainStars": [
+          "破军"
+        ],
+        "auxStars": [],
+        "sihua": [],
+        "daXian": {
+          "startAge": 4,
+          "endAge": 13,
+          "isCurrent": false,
+          "daXianGongName": "大兄"
+        },
+        "liuNian": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "liuNianYear": 2022
+      },
+      {
+        "gong": "兄弟",
+        "dizhi": "丑",
+        "tiangan": "癸",
+        "mainStars": [],
+        "auxStars": [],
+        "sihua": [],
+        "daXian": {
+          "startAge": 114,
+          "endAge": 123,
+          "isCurrent": false,
+          "daXianGongName": "大夫"
+        },
+        "liuNian": [
+          114,
+          115,
+          116,
+          117,
+          118,
+          119,
+          120,
+          121,
+          122,
+          123
+        ],
+        "liuNianYear": 2021
+      },
+      {
+        "gong": "夫妻",
+        "dizhi": "子",
+        "tiangan": "壬",
+        "mainStars": [
+          "紫微"
+        ],
+        "auxStars": [],
+        "sihua": [],
+        "daXian": {
+          "startAge": 104,
+          "endAge": 113,
+          "isCurrent": false,
+          "daXianGongName": "大子"
+        },
+        "liuNian": [
+          104,
+          105,
+          106,
+          107,
+          108,
+          109,
+          110,
+          111,
+          112,
+          113
+        ],
+        "liuNianYear": 2020
+      },
+      {
+        "gong": "子女",
+        "dizhi": "亥",
+        "tiangan": "辛",
+        "mainStars": [
+          "天机"
+        ],
+        "auxStars": [
+          "左辅",
+          "文曲",
+          "天魁"
+        ],
+        "sihua": [
+          {
+            "star": "天机",
+            "hua": "化科"
+          }
+        ],
+        "daXian": {
+          "startAge": 94,
+          "endAge": 103,
+          "isCurrent": false,
+          "daXianGongName": "大财"
+        },
+        "liuNian": [
+          94,
+          95,
+          96,
+          97,
+          98,
+          99,
+          100,
+          101,
+          102,
+          103
+        ]
+      },
+      {
+        "gong": "财帛",
+        "dizhi": "戌",
+        "tiangan": "庚",
+        "mainStars": [
+          "七杀"
+        ],
+        "auxStars": [
+          "天喜"
+        ],
+        "sihua": [],
+        "daXian": {
+          "startAge": 84,
+          "endAge": 93,
+          "isCurrent": false,
+          "daXianGongName": "大疾"
+        },
+        "liuNian": [
+          84,
+          85,
+          86,
+          87,
+          88,
+          89,
+          90,
+          91,
+          92,
+          93
+        ]
+      },
+      {
+        "gong": "疾厄",
+        "dizhi": "酉",
+        "tiangan": "己",
+        "mainStars": [
+          "太阳",
+          "天梁"
+        ],
+        "auxStars": [
+          "天钺"
+        ],
+        "sihua": [],
+        "daXian": {
+          "startAge": 74,
+          "endAge": 83,
+          "isCurrent": false,
+          "daXianGongName": "大迁"
+        },
+        "liuNian": [
+          74,
+          75,
+          76,
+          77,
+          78,
+          79,
+          80,
+          81,
+          82,
+          83
+        ],
+        "liuNianYear": 2029
+      },
+      {
+        "gong": "迁移",
+        "dizhi": "申",
+        "tiangan": "戊",
+        "mainStars": [
+          "武曲",
+          "天相"
+        ],
+        "auxStars": [
+          "天姚"
+        ],
+        "sihua": [],
+        "daXian": {
+          "startAge": 64,
+          "endAge": 73,
+          "isCurrent": false,
+          "daXianGongName": "大友"
+        },
+        "liuNian": [
+          64,
+          65,
+          66,
+          67,
+          68,
+          69,
+          70,
+          71,
+          72,
+          73
+        ],
+        "liuNianYear": 2028
+      },
+      {
+        "gong": "交友",
+        "dizhi": "未",
+        "tiangan": "丁",
+        "mainStars": [
+          "天同",
+          "巨门"
+        ],
+        "auxStars": [
+          "擎羊"
+        ],
+        "sihua": [
+          {
+            "star": "天同",
+            "hua": "化权"
+          },
+          {
+            "star": "巨门",
+            "hua": "化忌"
+          }
+        ],
+        "daXian": {
+          "startAge": 54,
+          "endAge": 63,
+          "isCurrent": false,
+          "daXianGongName": "大官"
+        },
+        "liuNian": [
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63
+        ],
+        "liuNianYear": 2027
+      },
+      {
+        "gong": "官禄",
+        "dizhi": "午",
+        "tiangan": "丙",
+        "mainStars": [
+          "贪狼"
+        ],
+        "auxStars": [
+          "禄存",
+          "地劫"
+        ],
+        "sihua": [],
+        "daXian": {
+          "startAge": 44,
+          "endAge": 53,
+          "isCurrent": false,
+          "daXianGongName": "大田"
+        },
+        "liuNian": [
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53
+        ],
+        "liuNianYear": 2026
+      },
+      {
+        "gong": "田宅",
+        "dizhi": "巳",
+        "tiangan": "乙",
+        "mainStars": [
+          "太阴"
+        ],
+        "auxStars": [
+          "天马",
+          "陀罗",
+          "铃星"
+        ],
+        "sihua": [
+          {
+            "star": "太阴",
+            "hua": "化禄"
+          }
+        ],
+        "daXian": {
+          "startAge": 34,
+          "endAge": 43,
+          "isCurrent": false,
+          "daXianGongName": "大福"
+        },
+        "liuNian": [
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43
+        ],
+        "liuNianYear": 2025
+      },
+      {
+        "gong": "福德",
+        "dizhi": "辰",
+        "tiangan": "甲",
+        "mainStars": [
+          "廉贞",
+          "天府"
+        ],
+        "auxStars": [
+          "火星",
+          "地空",
+          "红鸾",
+          "天刑"
+        ],
+        "sihua": [],
+        "daXian": {
+          "startAge": 24,
+          "endAge": 33,
+          "isCurrent": false,
+          "daXianGongName": "大父"
+        },
+        "liuNian": [
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33
+        ],
+        "liuNianYear": 2024
+      },
+      {
+        "gong": "父母",
+        "dizhi": "卯",
+        "tiangan": "癸",
+        "mainStars": [],
+        "auxStars": [
+          "右弼",
+          "文昌"
+        ],
+        "sihua": [],
+        "daXian": {
+          "startAge": 14,
+          "endAge": 23,
+          "isCurrent": true,
+          "daXianGongName": "大命"
+        },
+        "liuNian": [
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23
+        ],
+        "liuNianYear": 2023
+      }
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "jiangfu-bazi-fun-skill",
+  "version": "0.2.0",
+  "description": "江西服装学院—命盘操盘手Skill —— 八字/紫微用财管框架读成出厂财报+年度行情，江服新生迎新破冰/财商启蒙趣味工具",
+  "author": "jiangfu-caopanshou contributors",
+  "license": "MIT",
+  "keywords": ["bazi", "ziwei", "八字", "紫微", "skillhub", "校园文化", "新生"],
+  "scripts": {
+    "build": "tsc",
+    "chart": "node dist/run-chart.js",
+    "dump": "node dist/dump-text.js"
+  },
+  "dependencies": {
+    "lunar-typescript": "^1.8.6"
+  },
+  "devDependencies": {
+    "typescript": "~5.6.2",
+    "@types/node": "^22.0.0"
+  }
+}

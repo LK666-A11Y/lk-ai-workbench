@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>命盘操盘手 · 示例盘面（虚构）</title>
+<style>
+  :root{
+    --bg:#0d1117; --panel:#161b22; --panel2:#1c2230; --border:#2b3340;
+    --ink:#e6edf3; --sub:#9aa7b4; --accent:#f0883e;
+    --wood:#3fb950; --fire:#f85149; --earth:#d29922; --metal:#e3b341; --water:#58a6ff;
+    --up:#f85149; --down:#3fb950;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--bg);color:var(--ink);font-family:"PingFang SC","Microsoft YaHei",system-ui,sans-serif;padding:22px;line-height:1.5}
+  .wrap{max-width:1180px;margin:0 auto}
+  .banner{background:#3a1d1d;border:1px solid #6b2b2b;color:#ffb4b4;font-size:12.5px;padding:8px 12px;border-radius:8px;margin-bottom:14px}
+  header{display:flex;align-items:baseline;justify-content:space-between;flex-wrap:wrap;gap:8px;margin-bottom:16px}
+  header h1{font-size:22px;letter-spacing:.5px}
+  header h1 .tag{color:var(--accent)}
+  header .meta{color:var(--sub);font-size:12.5px}
+  .panel{background:var(--panel);border:1px solid var(--border);border-radius:12px;padding:16px;margin-bottom:14px}
+  .panel h2{font-size:14px;color:var(--sub);font-weight:600;margin-bottom:12px;letter-spacing:1px;text-transform:none}
+  /* 四柱 */
+  .pillars{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}
+  .pillar{background:var(--panel2);border:1px solid var(--border);border-radius:10px;padding:12px 8px;text-align:center;position:relative}
+  .pillar .label{font-size:12px;color:var(--sub);margin-bottom:8px}
+  .pillar .shi{font-size:12px;color:var(--accent);margin-bottom:6px;min-height:16px}
+  .pillar .gz{display:flex;flex-direction:column;align-items:center;gap:6px}
+  .pillar .gan,.pillar .zhi{font-size:30px;font-weight:700;width:46px;height:46px;line-height:46px;border-radius:8px;background:#0d1117;border:1px solid var(--border)}
+  .pillar .gzhi{display:flex;gap:6px}
+  .pillar .sub{font-size:11px;color:var(--sub);margin-top:8px;display:flex;gap:8px;justify-content:center}
+  .pillar .sub b{color:var(--ink);font-weight:600}
+  .pillar.day{outline:2px solid var(--accent);outline-offset:1px}
+  /* 核心结论 */
+  .cards{display:grid;grid-template-columns:repeat(5,1fr);gap:10px}
+  .card{background:var(--panel2);border:1px solid var(--border);border-radius:10px;padding:12px;text-align:center}
+  .card .k{font-size:12px;color:var(--sub);margin-bottom:6px}
+  .card .v{font-size:18px;font-weight:700}
+  .card .v small{font-size:12px;color:var(--sub);font-weight:400}
+  /* 五行 */
+  .wuxing{display:flex;gap:14px;align-items:flex-end;flex-wrap:wrap}
+  .wx{display:flex;flex-direction:column;align-items:center;gap:6px;min-width:54px}
+  .wx .bar{width:40px;border-radius:6px 6px 0 0;background:var(--panel2);border:1px solid var(--border);position:relative;height:120px;display:flex;align-items:flex-end;justify-content:center}
+  .wx .bar .fill{width:100%;border-radius:6px 6px 0 0}
+  .wx .num{position:absolute;top:-20px;font-size:13px;font-weight:700}
+  .wx .name{font-size:13px}
+  .wx .name small{color:var(--sub);font-size:11px}
+  .wxnote{color:var(--sub);font-size:12.5px;margin-top:4px}
+  /* flux */
+  .fluxrow{display:grid;grid-template-columns:90px 1fr;gap:12px;align-items:center;padding:10px 0;border-bottom:1px solid var(--border)}
+  .fluxrow:last-child{border-bottom:none}
+  .fluxrow .kind{font-size:13px;color:var(--sub);font-weight:600}
+  .fluxrow .body{display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+  .fluxrow .gz{font-size:24px;font-weight:700}
+  .fluxrow .ss{font-size:13px;color:var(--accent)}
+  .reltag{font-size:12px;padding:3px 9px;border-radius:20px;border:1px solid var(--border);background:var(--panel2);color:var(--ink)}
+  .reltag.chong{color:#ff7b72;border-color:#5c2a2a}
+  .reltag.he{color:#7ee787;border-color:#2a4a2a}
+  .reltag.xing{color:#e3b341;border-color:#5c4a2a}
+  .reltag.gong{color:#58a6ff;border-color:#2a3a5c}
+  /* 紫微 */
+  .ziwei{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+  .zg{background:var(--panel2);border:1px solid var(--border);border-radius:8px;padding:9px 10px}
+  .zg .g{font-size:12px;color:var(--sub)}
+  .zg .d{font-size:14px;font-weight:600;margin:3px 0}
+  .zg .stars{font-size:11.5px;color:var(--ink);line-height:1.4}
+  .zg .stars .aux{color:var(--sub)}
+  .zg.cur{outline:1px solid var(--accent)}
+  .footer{color:var(--sub);font-size:11.5px;text-align:center;margin-top:6px}
+  .scoretag{font-size:11px;color:var(--sub);margin-top:10px}
+  .scoretag b{color:var(--ink)}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="banner">⚠️ 以下为<b>虚构示例盘</b>（公历 2008-02-18 12:00 男），仅用于演示「命盘操盘手」输出样式，<b>非真实个人信息</b>，不含任何隐私数据。参赛展示用。</div>
+
+  <header>
+    <h1>命盘操盘手 · <span class="tag">示例盘面</span></h1>
+    <div class="meta">江西服装学院—命盘操盘手Skill ｜ 把八字/紫微读成「出厂财报 + 年度行情」</div>
+  </header>
+
+  <!-- 四柱 -->
+  <div class="panel">
+    <h2>一、四柱盘面（天干·地支·十神·自坐）</h2>
+    <div class="pillars">
+      <div class="pillar"><div class="label">年柱</div><div class="shi">比肩</div><div class="gz"><div class="gan">戊</div><div class="zhi">子</div></div><div class="sub"><span>自坐 <b>胎</b></span><span>纳音 <b>霹雳火</b></span></div></div>
+      <div class="pillar"><div class="label">月柱</div><div class="shi">七杀</div><div class="gz"><div class="gan">甲</div><div class="zhi">寅</div></div><div class="sub"><span>自坐 <b>临官</b></span><span>纳音 <b>大溪水</b></span></div></div>
+      <div class="pillar day"><div class="label">日柱（日主）</div><div class="shi">比肩</div><div class="gz"><div class="gan">戊</div><div class="zhi">子</div></div><div class="sub"><span>自坐 <b>胎</b></span><span>纳音 <b>霹雳火</b></span></div></div>
+      <div class="pillar"><div class="label">时柱</div><div class="shi">比肩</div><div class="gz"><div class="gan">戊</div><div class="zhi">午</div></div><div class="sub"><span>自坐 <b>帝旺</b></span><span>纳音 <b>天上火</b></span></div></div>
+    </div>
+  </div>
+
+  <!-- 核心结论 -->
+  <div class="panel">
+    <h2>二、出厂财报摘要</h2>
+    <div class="cards">
+      <div class="card"><div class="k">日主</div><div class="v">戊土</div></div>
+      <div class="card"><div class="k">格局</div><div class="v">七杀格 <small>高置信</small></div></div>
+      <div class="card"><div class="k">旺衰</div><div class="v">中和 <small>score 2</small></div></div>
+      <div class="card"><div class="k">调候用神</div><div class="v">丙 甲 癸</div></div>
+      <div class="card"><div class="k">五行缺口</div><div class="v" style="color:var(--metal)">缺金</div></div>
+    </div>
+    <div class="scoretag">旺衰四维打分：得令 <b>-2.3</b> ｜ 长生 <b>+2</b> ｜ 得地 <b>+1.8</b> ｜ 得势 <b>+0.5</b> ＝ 中和（身不弱不旺，攻守皆可）</div>
+  </div>
+
+  <!-- 五行 -->
+  <div class="panel">
+    <h2>三、五行配置（surface 统计）</h2>
+    <div class="wuxing">
+      <div class="wx"><div class="bar"><div class="num">2</div><div class="fill" style="height:40%;background:var(--wood)"></div></div><div class="name">木 <small>旺</small></div></div>
+      <div class="wx"><div class="bar"><div class="num">1</div><div class="fill" style="height:20%;background:var(--fire)"></div></div><div class="name">火 <small>相</small></div></div>
+      <div class="wx"><div class="bar"><div class="num">3</div><div class="fill" style="height:60%;background:var(--earth)"></div></div><div class="name">土 <small>死</small></div></div>
+      <div class="wx"><div class="bar"><div class="num">0</div><div class="fill" style="height:4%;background:var(--metal)"></div></div><div class="name">金 <small>囚·缺</small></div></div>
+      <div class="wx"><div class="bar"><div class="num">2</div><div class="fill" style="height:40%;background:var(--water)"></div></div><div class="name">水 <small>休</small></div></div>
+    </div>
+    <div class="wxnote">十神类映射：木=官杀(2) ｜ 火=印(1) ｜ 土=比劫(3) ｜ 金=食伤(0) ｜ 水=财(2)。口诀：比劫多=自己人撑场，缺食伤=表达/手艺要练。</div>
+  </div>
+
+  <!-- flux 流年流月流日 -->
+  <div class="panel">
+    <h2>四、年度行情（流年·流月·流日，参考日 2026-08-29）</h2>
+    <div class="fluxrow">
+      <div class="kind">流年</div>
+      <div class="body">
+        <span class="gz">丙午</span><span class="ss">偏印</span>
+        <span class="reltag chong">六冲·年柱子</span>
+        <span class="reltag chong">六冲·日柱子</span>
+        <span class="reltag gong">拱三合·月+时·拱戌</span>
+      </div>
+    </div>
+    <div class="fluxrow">
+      <div class="kind">流月</div>
+      <div class="body">
+        <span class="gz">丙申</span><span class="ss">偏印</span>
+        <span class="reltag chong">六冲·月柱寅</span>
+        <span class="reltag xing">相刑·月柱申(恃势之刑)</span>
+        <span class="reltag gong">拱三合·年+日·拱辰</span>
+      </div>
+    </div>
+    <div class="fluxrow">
+      <div class="kind">流日</div>
+      <div class="body">
+        <span class="gz">乙亥</span><span class="ss">正官</span>
+        <span class="reltag he">六合·月柱寅</span>
+        <span class="reltag gong">拱三会·年+日·拱丑</span>
+      </div>
+    </div>
+    <div class="wxnote" style="margin-top:10px">读盘：今年「丙午偏印」冲了年/日两支子水（财星被冲动）→ 钱与内心安稳感有波动；月柱寅被流月申冲+刑 → 原计划/学业节奏被打断，宜守不宜冒进。</div>
+  </div>
+
+  <!-- 紫微 -->
+  <div class="panel">
+    <h2>五、紫微斗数 12 宫（木三局 · 命宫申）</h2>
+    <div class="ziwei">
+      <div class="zg"><div class="g">命宫·申</div><div class="d">申(庚)</div><div class="stars">火星 <span class="aux">（辅星）</span></div></div>
+      <div class="zg"><div class="g">兄弟·未</div><div class="d">未(己)</div><div class="stars">天钺</div></div>
+      <div class="zg"><div class="g">夫妻·午</div><div class="d">午(戊)</div><div class="stars">擎羊</div></div>
+      <div class="zg"><div class="g">子女·巳</div><div class="d">巳(丁)</div><div class="stars">紫微 七杀 ｜ 禄存 地空 地劫</div></div>
+      <div class="zg"><div class="g">财帛·辰</div><div class="d">辰(丙)</div><div class="stars">天机 天梁 ｜ 左辅 文昌 陀罗 铃星 ｜ 天机化忌</div></div>
+      <div class="zg"><div class="g">疾厄·卯</div><div class="d">卯(乙)</div><div class="stars">天相 ｜ 红鸾</div></div>
+      <div class="zg"><div class="g">迁移·寅</div><div class="d">寅(甲)</div><div class="stars">太阳 巨门 ｜ 天马</div></div>
+      <div class="zg"><div class="g">交友·丑</div><div class="d">丑(乙)</div><div class="stars">武曲 贪狼 ｜ 天魁 天姚 ｜ 贪狼化禄</div></div>
+      <div class="zg"><div class="g">官禄·子</div><div class="d">子(甲)</div><div class="stars">天同 太阴 ｜ 太阴化权</div></div>
+      <div class="zg"><div class="g">田宅·亥</div><div class="d">亥(癸)</div><div class="stars">天府</div></div>
+      <div class="zg"><div class="g">福德·戌</div><div class="d">戌(壬)</div><div class="stars">右弼 文曲 ｜ 右弼化科</div></div>
+      <div class="zg cur"><div class="g">父母·酉（大限在运）</div><div class="d">酉(辛)</div><div class="stars">廉贞 破军 ｜ 天喜 天刑</div></div>
+    </div>
+  </div>
+
+  <div class="footer">示例盘由 calculator 引擎离线生成 ｜ 真实使用时由用户自行输入生辰，本工具不采集、不存储任何个人信息 ｜ 江西服装学院—命盘操盘手Skill（创意脑洞赛道）</div>
+
+</div>
+</body>
+</html>
